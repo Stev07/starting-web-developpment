@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    padding:35px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ebebeb;
+}
+
+.container{
+    font-family: Montserrat;
+    width:40%;
+    color:#817d7f;
+    line-height: 30px;
+}
+
+.tim, .social-network, .movies{padding:0 20px;}
+
+.tim{
+    background: white;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.tim h1{
+    color:#dd5555;
+}
+.tim img{
+    width:20%;
+    border:4px solid #cccccc;
+    border-radius:120px;
+}
+
+.tim p {
+    font-size:18px;
+    text-align: justify;
+}
+
+.tim button{
+    background: #dd5555;
+    color:white;
+    height:50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight:500;
+}
+
+.socialnetwork{
+    margin:20px 0;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+}
+
+.social-fb, .social-lin, .social-tw{
+    width:100px;
+    font-size:50px;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.socialnetwork p{font-size: 15px;}
+
+.movies{
+    display:grid;
+    grid-template-columns:25% 75% ;
+    grid-template-rows:100px 1fr 1fr 1fr;
+    background: white;
+    text-align: justify;
+}
+
+.movie1-img img, .movie2-img img, .movie3-img img{
+    width:70%;
+}
+
+.movie-title{
+    font-weight: bold;
+    grid-column:1/3;
+    grid-row:1;
+    font-size:18px;
+    text-align: center;
+}
+
+.movie-title span{
+    background: #cccc;
+}
+
+.movie-title-center{
+    text-align:center;
+    font-weight: bold;
+    }
